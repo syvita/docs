@@ -126,7 +126,7 @@ const GlobalStyles = (
 
       blockquote {
         margin-top: 24px !important;
-        margin-bottom: 0px !important;
+        margin-bottom: 24px !important;
       }
 
       h2 {
