@@ -25,7 +25,7 @@ const GlobalStyles = (
       }
       a {
         text-decoration: none;
-        transition-duration: 200ms;
+        transition-duration: 100ms;
       }
       * {
         font-feature-settings: 'onum' 1, 'pnum' 1, 'kern' 1, 'ss01' 1;
@@ -33,7 +33,6 @@ const GlobalStyles = (
       html,
       body {
         font-family: Inter, sans-serif;
-        transition-duration: 200ms;
       }
 
       @counter-style list {
