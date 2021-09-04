@@ -46,15 +46,15 @@ export default class MyDocument extends Document<DocumentProps> {
           <script
             dangerouslySetInnerHTML={{
               __html: `(function() {
-try {
-    var mode = localStorage.getItem('${THEME_STORAGE_KEY}')
-    if (!mode) return
-    document.documentElement.classList.add(mode)
-    var bgValue = getComputedStyle(document.documentElement)
-    .getPropertyValue('--colors-bg')
-    document.documentElement.style.background = bgValue
-} catch (e) {}
-})()`,
+                try {
+                    var mode = localStorage.getItem('${THEME_STORAGE_KEY}')
+                    if (!mode) return
+                    document.documentElement.classList.add(mode)
+                    var bgValue = getComputedStyle(document.documentElement)
+                      .getPropertyValue('--colors-bg')
+                    document.documentElement.style.background = bgValue
+                } catch (e) {}
+                })()`,
             }}
           />
           <link rel="preconnect" href="https://bh4d9od16a-dsn.algolia.net" crossOrigin="true" />

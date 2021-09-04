@@ -9,12 +9,14 @@ export const Base = (
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
       }
-      :root {
-        ${generateCssVariables('light')({ colorMode: 'light', theme })};
-        --colors-highlight-line-bg: rgba(255, 255, 255, 0.1);
-        --colors-accent: #9146ff !important;
-        --colors-brand: #9146ff !important;
 
+      :root {
+        @media (prefers-color-scheme: light) {
+          ${generateCssVariables('light')({ colorMode: 'light', theme })};
+          --colors-highlight-line-bg: rgba(255, 255, 255, 0.1);
+          --colors-accent: #9146ff !important;
+          --colors-brand: #9146ff !important;
+        }
         @media (prefers-color-scheme: dark) {
           ${generateCssVariables('dark')({ colorMode: 'dark', theme })};
           --colors-highlight-line-bg: rgba(255, 255, 255, 0.05);
@@ -22,13 +24,12 @@ export const Base = (
           --colors-brand: #bfabff !important;
         }
       }
-      html,
-      body,
-      #__next {
+
+      html, body, #__next {
         background: var(--colors-bg);
         border-color: var(--colors-border);
 
-        &.light {
+        @media (prefers-color-scheme: light) {
           :root {
             ${generateCssVariables('light')({ colorMode: 'light', theme })};
             --colors-highlight-line-bg: rgba(255, 255, 255, 0.1);
@@ -38,7 +39,8 @@ export const Base = (
             -moz-osx-font-smoothing: grayscale;
           }
         }
-        &.dark {
+
+        @media (prefers-color-scheme: dark) {
           :root {
             ${generateCssVariables('dark')({ colorMode: 'dark', theme })};
             --colors-highlight-line-bg: rgba(255, 255, 255, 0.04);

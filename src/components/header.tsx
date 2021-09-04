@@ -19,13 +19,10 @@ import { useMobileMenuState } from '@common/hooks/use-mobile-menu';
 
 import { ForwardRefExoticComponentWithAs, forwardRefWithAs } from '@stacks/ui-core';
 import NextLink from 'next/link';
-import { StacksDocsLogo } from '@components/stacks-docs-logo';
-import { ColorModeButton } from '@components/color-mode-button';
 import { SearchButton } from '@components/search-button';
 import { border, transition } from '@common/utils';
 import { getCapsizeStyles } from '@components/mdx/typography';
 import { useTouchable } from '@common/hooks/use-touchable';
-import { useRouter } from 'next/router';
 
 const MenuButton = ({ ...rest }: any) => {
   const { isOpen, handleOpen, handleClose } = useMobileMenuState();
@@ -269,7 +266,6 @@ const Header = ({ hideSubBar, ...rest }: any) => {
               <Navigation />
               <Stack isInline spacing="tight">
                 <SearchButton />
-                <ColorModeButton />
                 <MenuButton />
               </Stack>
             </Flex>
