@@ -195,7 +195,7 @@ const handleSignIn = () => {
     await userSession.handlePendingSignIn();
     await User.createWithCurrentUser();
   }
-};
+}
 ```
 
 Calling `User.createWithCurrentUser` does the following:
