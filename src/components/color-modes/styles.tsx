@@ -18,6 +18,8 @@ export const Base = (
         @media (prefers-color-scheme: dark) {
           ${generateCssVariables('dark')({ colorMode: 'dark', theme })};
           --colors-highlight-line-bg: rgba(255, 255, 255, 0.05);
+          --colors-accent: #bfabff !important;
+          --colors-brand: #bfabff !important;
         }
       }
       html,

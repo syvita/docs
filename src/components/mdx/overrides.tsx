@@ -119,6 +119,20 @@ const GlobalStyles = (
       pre {
         display: inline-block;
       }
+
+      section {
+        margin-bottom: 0px !important;
+      }
+
+      blockquote {
+        margin-top: 24px !important;
+        margin-bottom: 0px !important;
+      }
+
+      h2 {
+        margin-top: 48px !important;
+      }
+
       p,
       ul,
       ol,
