@@ -25,7 +25,9 @@ export const Base = (
         }
       }
 
-      html, body, #__next {
+      html,
+      body,
+      #__next {
         background: var(--colors-bg);
         border-color: var(--colors-border);
 
