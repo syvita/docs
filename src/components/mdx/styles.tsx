@@ -104,12 +104,12 @@ export const styleOverwrites = {
     },
   },
   '*:not(pre) code': {
-    fontFamily: '"Soehne Mono", "Fira Code", monospace',
+    fontFamily: 'Menlo, "Fira Code", monospace',
     // ...getCapsizeStyles(14, 24),
     // padding: '3px 2px',
   },
   'pre code': {
-    fontFamily: '"Soehne Mono", "Fira Code", monospace',
+    fontFamily: 'Menlo, "Fira Code", monospace',
     fontSize: '14px',
     lineHeight: '24px',
   },

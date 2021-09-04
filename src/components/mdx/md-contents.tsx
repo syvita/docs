@@ -123,10 +123,10 @@ export const styleOverwrites: ThemeUICSSObject = {
     },
   },
   '*:not(pre) code': {
-    fontFamily: '"Soehne Mono", "Fira Code", monospace',
+    fontFamily: 'Menlo, "Fira Code", monospace',
   },
   'pre code': {
-    fontFamily: '"Soehne Mono", "Fira Code", monospace',
+    fontFamily: 'Menlo, "Fira Code", monospace',
     fontSize: '14px',
     lineHeight: '24px',
   },

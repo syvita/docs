@@ -11,7 +11,7 @@ const fontMetrics = {
 export const baseTypeStyles = {
   letterSpacing: '-0.01em',
   display: 'flex',
-  fontFamily: `'Soehne', Inter, sans-serif`,
+  fontFamily: `'Roobert', Inter, sans-serif`,
 };
 
 export const getCapsizeStyles = (fontSize, leading, prefix = '_') => {

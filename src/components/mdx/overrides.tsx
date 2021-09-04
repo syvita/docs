@@ -31,7 +31,7 @@ const GlobalStyles = (
       }
       html,
       body {
-        font-family: 'Soehne', Inter, sans-serif;
+        font-family: 'Roobert', Inter, sans-serif;
       }
 
       @counter-style list {
