@@ -12,8 +12,8 @@ export const Base = (
       :root {
         ${generateCssVariables('light')({ colorMode: 'light', theme })};
         --colors-highlight-line-bg: rgba(255, 255, 255, 0.1);
-        --colors-accent: #9146FF !important;
-        --colors-brand: #9146FF !important;
+        --colors-accent: #9146ff !important;
+        --colors-brand: #9146ff !important;
 
         @media (prefers-color-scheme: dark) {
           ${generateCssVariables('dark')({ colorMode: 'dark', theme })};
