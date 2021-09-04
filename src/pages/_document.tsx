@@ -121,7 +121,6 @@ try {
             }}
           />
           <link rel="preconnect" href="https://bh4d9od16a-dsn.algolia.net" crossOrigin="true" />
-          <link rel="preconnect" href="https://cdn.usefathom.com" crossOrigin="true" />
           <Main />
           <NextScript />
         </body>
