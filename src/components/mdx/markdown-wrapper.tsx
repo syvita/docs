@@ -33,7 +33,7 @@ export const MDWrapper: React.FC<any> = React.memo(
     return (
       <>
         <Head>
-          <title>{getTitle(frontmatter)} | Stacks</title>
+          <title>{getTitle(frontmatter)} | Syvita Guild</title>
           <meta name="description" content={description} />
         </Head>
         <MetaLabels labels={labels} />
