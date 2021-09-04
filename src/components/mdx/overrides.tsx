@@ -23,7 +23,9 @@ const GlobalStyles = (
       :root {
         --reach-tooltip: 1;
       }
-      a {
+      a,
+      span,
+      div {
         text-decoration: none;
         transition-duration: 100ms;
       }

@@ -1,6 +1,6 @@
 ---
-title: Stacks documentation
-description: Write Clarity smart contracts, build apps, and starting mining with the Stacks blockchain
+title: Welcome to the Docs'
+description: Learn Stacks, how to run a node, & understand and integrate Syvirean projects
 ---
 
 ## Understand Stacks
@@ -8,22 +8,17 @@ description: Write Clarity smart contracts, build apps, and starting mining with
 [@page-reference | grid]
 | /understand-stacks/overview, /understand-stacks/proof-of-transfer, /understand-stacks/testnet
 
-## Write smart contracts
+## Run your own node!
+
+[@page-reference | grid]
+| /understand-stacks/running-mainnet-node, /understand-stacks/running-testnet-node, /understand-stacks/running-regtest-node, /start-mining/mainnet, /start-mining/testnet
+
+## Smart contracts!
 
 [@page-reference | grid]
 | /write-smart-contracts/overview, /write-smart-contracts/hello-world-tutorial, /write-smart-contracts/tokens, /write-smart-contracts/nft-tutorial
 
-## Build apps
+## Use Stacks.js
 
 [@page-reference | grid]
 | /build-apps/guides/authentication, /build-apps/guides/transaction-signing, /build-apps/guides/data-storage
-
-## Start mining
-
-[@page-reference | grid]
-| /start-mining/mainnet, /start-mining/testnet, /understand-stacks/running-mainnet-node, /understand-stacks/running-testnet-node, /understand-stacks/running-regtest-node
-
-## Ecosystem
-
-[@page-reference | grid-small]
-| /ecosystem/overview, /ecosystem/stacks-token, /ecosystem/contributing
