@@ -60,29 +60,24 @@ interface NavItem {
 
 const nav: NavItem[] = [
   {
-    label: 'Start building',
+    label: 'Social',
     href: '',
     children: [
       {
-        label: 'Documentation',
-        href: 'https://docs.blockstack.org/',
-        target: '_self',
+        label: 'Discord',
+        href: 'https://discord.syvita.org',
+      },
+      {
+        label: 'Twitter',
+        href: 'https://twitter.com/syvitaguild',
       },
       {
         label: 'GitHub',
-        href: 'https://github.com/blockstack',
-      },
-      {
-        label: 'Papers',
-        href: 'https://www.blockstack.org/papers',
-      },
-      {
-        label: 'Discord',
-        href: 'https://discord.gg/zrvWsQC',
+        href: 'https://github.com/syvita',
       },
     ],
   },
-  { label: 'Testnet', href: 'https://www.blockstack.org/testnet' },
+  { label: 'Explorer', href: 'https://explorer.syvita.org' },
   { label: 'Discover apps', href: 'https://app.co/' },
 ];
 

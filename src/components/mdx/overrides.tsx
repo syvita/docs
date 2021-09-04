@@ -25,6 +25,7 @@ const GlobalStyles = (
       }
       a {
         text-decoration: none;
+        transition-duration: 200ms;
       }
       * {
         font-feature-settings: 'onum' 1, 'pnum' 1, 'kern' 1, 'ss01' 1;
