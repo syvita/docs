@@ -39,7 +39,7 @@ export default class MyDocument extends Document<DocumentProps> {
       <Html lang="en">
         <Head>
           <meta name="color-scheme" content="light dark" />
-          <link rel="stylesheet" href='https://x.syvita.org/fonts/roobert/importme.css'></link>
+          <link rel="stylesheet" href="https://x.syvita.org/fonts/roobert/importme.css"></link>
         </Head>
         <body>
           <script
