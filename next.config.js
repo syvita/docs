@@ -925,18 +925,14 @@ async function redirects() {
 
 module.exports = withFonts(
   withBundleAnalyzer({
-    i18n: {
-      locales: ['en-US'],
-      defaultLocale: 'en-US',
-    },
     experimental: {
       modern: true,
       polyfillsOptimization: true,
       jsconfigPaths: true,
       trailingSlash: true,
     },
-    env: {
-      FATHOM_ID: 'FOEMPXUV',
+    typescript: {
+      ignoreBuildErrors: true,
     },
     redirects,
     pageExtensions: ['js', 'ts', 'tsx', 'md', 'mdx'],

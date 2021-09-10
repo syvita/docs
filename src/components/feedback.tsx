@@ -17,8 +17,6 @@ import { useTouchable } from '@common/hooks/use-touchable';
 import { border } from '@common/utils';
 import { useRouter } from 'next/router';
 import { getHeadingStyles } from '@components/mdx/typography';
-import { css } from '@stacks/ui-core';
-import { StatusCheck } from '@components/status-check';
 import { useColorMode } from '@common/hooks/use-color-mode';
 
 const Icon: React.FC<BoxProps & { icon: React.FC<any> }> = ({ icon: IconComponent, ...props }) => {
@@ -124,14 +122,13 @@ export const FeedbackSection: React.FC<BoxProps> = props => {
         mt={space(['extra-loose', 'extra-loose', 'base-loose'])}
       >
         <Link
-          href={`https://github.com/blockstack/docs/edit/master/src/pages${editPage}.md`}
+          href={`https://github.com/syvita/docs/edit/master/src/pages${editPage}.md`}
           target="_blank"
           rel="nofollow noopener noreferrer"
           fontSize="14px"
         >
           Edit this page on GitHub
         </Link>
-        <StatusCheck mt={space('base-loose')} />
       </Flex>
     </Flex>
   );

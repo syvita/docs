@@ -23,15 +23,18 @@ const GlobalStyles = (
       :root {
         --reach-tooltip: 1;
       }
-      a {
+      a,
+      span,
+      div {
         text-decoration: none;
+        transition-duration: 100ms;
       }
       * {
         font-feature-settings: 'onum' 1, 'pnum' 1, 'kern' 1, 'ss01' 1;
       }
       html,
       body {
-        font-family: 'Soehne', Inter, sans-serif;
+        font-family: Inter, sans-serif;
       }
 
       @counter-style list {
@@ -118,6 +121,20 @@ const GlobalStyles = (
       pre {
         display: inline-block;
       }
+
+      section {
+        margin-bottom: 0px !important;
+      }
+
+      blockquote {
+        margin-top: 24px !important;
+        margin-bottom: 24px !important;
+      }
+
+      h2 {
+        margin-top: 48px !important;
+      }
+
       p,
       ul,
       ol,
