@@ -59,6 +59,11 @@ export default class MyDocument extends Document<DocumentProps> {
                 })()`,
             }}
           />
+          <script
+            defer
+            src="https://static.cloudflareinsights.com/beacon.min.js"
+            data-cf-beacon='{"token": "7119a34ea5d44f3db50204b9626b36f6"}'
+          ></script>
           <link rel="preconnect" href="https://bh4d9od16a-dsn.algolia.net" crossOrigin="true" />
           <Main />
           <NextScript />
